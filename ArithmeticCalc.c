@@ -12,9 +12,10 @@ int main()
     sum = a+b;
     sub = a-b;
     mul = a*b;
+    // verify that the denominator is not zero
     if(b != 0)
     {
-    div = a/b;
+    div = a/b; // now carry out the division
     }
     else
     {
